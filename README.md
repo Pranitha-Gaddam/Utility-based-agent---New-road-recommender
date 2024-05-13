@@ -1,5 +1,8 @@
 # New-road-recommender
-This project aims to maximize the benefits of shorter travel times when building new roads within a network graph. The process entails trip simulation, estimating the possible benefits of building new roads, and repeatedly adding the road that offers the greatest benefit to the graph.
+
+This project aims to gain a thorough understanding of the working of an agent to assist in navigation in a stochastic setting that mimics a real-world environment.
+
+The goal of the project is to maximize the benefits of shorter travel times when building new roads within a network graph. The process entails trip simulation, estimating the possible benefits of building new roads, and repeatedly adding the road that offers the greatest benefit to the graph.
 
 The networkX module is utilized to create a random graph with 60 nodes and an initial connectivity of 0.05. The connectivity is incremented by 0.01 until the graph is connected. The size of the edges between two nodes in the graph are randomly assigned with a range of 5-25. The program runs a simulation of 10 hours (36000 seconds), where 100 trips are generated every second.
 
